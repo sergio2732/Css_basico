@@ -1,0 +1,11 @@
+/*
+Es un lenguaje aliado a html que nos permite
+formatear de una manera agradable al ojo humano, los
+documentos HTML, es decir que es un lenguaje de estilo para
+documentos html
+*/
+h2{
+    color: DeepPink;
+    background-color: Tomato;
+    text-align: right;
+}

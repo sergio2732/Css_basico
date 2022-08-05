@@ -1,0 +1,36 @@
+/*
+Es un lenguaje aliado a html que nos permite
+formatear de una manera agradable al ojo humano, los
+documentos HTML, es decir que es un lenguaje de estilo para
+documentos html
+La estructura básica para trabajar en css es
+selector{
+ atricuto:valor;
+}
+Selector: Selecciona que elemento se va a modificar
+1. Selector por etiqueta: cambia el estilo de todas las etiquetas
+2. Selector por clase: cambia o modifica el estilo del elemento que usa en su atributo calss el estilo
+3. Selector por id: cambia o modifica el estilo del elemento que posea el id
+4. Selector universal: *
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: DeepPink;
+    background-color: tan;
+    text-align: right;
+}
+.articulo1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: salmon;
+    padding: 0px 0px 10px 20px;
+}
+/* Selector por id */
+#Segundo{
+    border-radius: 5px;
+    background-color: aqua;
+    color: blueviolet;
+}
